@@ -5,7 +5,9 @@ angular.module('angularMaterialApp', [
   'ngResource',
   'ngSanitize',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+    'ngAnimate',
+    'ngMaterial'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider
